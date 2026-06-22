@@ -3,7 +3,7 @@ An extremely minimally edited apworld of Alchav's Pokemon Red/Blue implementatio
 
 This should completely function client-side, meaning that you won't need to send this to the multworld host in order to enjoy the fix.
 
-This is an extremely trivial change!  Compared to Alchav's "Version 6, Beta 6" released in January, there is exactly 6 lines altered, and that's just commenting out lines 393-396 and 398-402 in rom.py.
+This is an extremely trivial change!  Compared to Alchav's, there is exactly 6 lines altered, and that's just commenting out lines 393-396 and 398-402 in rom.py.
 
 The result of this is allowing for the Poke Doll skip in Lavender Tower as well as allowing the player to get onto Cycling Road without a Bicycle, while not expecting the player to do either within the randomizer logic.
 

@@ -490,7 +490,7 @@ def generate_output(world: "PokemonRedWorld | PokemonBlueWorld | PokemonYellowWo
         write_bytes(world.rom_addresses["Option_No_Split_EXP_B"], [0, 0, 0])  # nop, nop, nop
 
     if not world.options.require_item_finder:
-        write_bytes(world.rom_addresses["Option_Itemfinder"], 0)  # nop
+        # write_bytes(world.rom_addresses["Option_Itemfinder"], 0)  # nop
     if world.options.extra_strength_boulders:
         for i in range(0, 3):
             write_bytes(world.rom_addresses["Option_Boulders"] + (i * 3), 0x15)

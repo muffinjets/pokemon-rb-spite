@@ -9,7 +9,7 @@ The following versions are supported as of 24 June, 2026:
 
 (If you don't know which to pick, and you didn't even know Yellow was playable, choose the "core" version)
 
-No matter which you pick, RENAME THE APWORLD to remove the all-caps "_BETAX" or "_CORE" before you install.
+No matter which you pick, RENAME THE APWORLD to remove the all-caps "_VXBETAX" or "_CORE" before you install.
 
 
 ## WHY DOES THIS EXIST?
